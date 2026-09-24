@@ -1,0 +1,23 @@
+artifact_path: file:D:/projects/lifepass-ml/mlruns/1/models/m-69c6b76d69e3436a95f2d0d53ba3e3cb/artifacts
+flavors:
+  python_function:
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.sklearn
+    model_path: model.skops
+    predict_fn: predict
+    python_version: 3.13.13
+  sklearn:
+    code: null
+    pickled_model: model.skops
+    serialization_format: skops
+    sklearn_version: 1.9.1
+    skops_trusted_types: null
+mlflow_version: 3.16.1
+model_id: m-69c6b76d69e3436a95f2d0d53ba3e3cb
+model_size_bytes: 110652
+model_uuid: m-69c6b76d69e3436a95f2d0d53ba3e3cb
+prompts: null
+run_id: ca6b4f72011445fea41516f6050eaa18
+utc_time_created: '2026-09-24 15:57:08.671119'
