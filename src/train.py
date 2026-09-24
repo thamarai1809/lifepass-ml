@@ -103,7 +103,8 @@ with mlflow.start_run():
     # 11. Log model to MLflow
     mlflow.sklearn.log_model(
         model,
-        "lifepass_classifier"
+        "lifepass_classifier",
+        registered_model_name="LifePass_Document_Classifier"
     )
 
 print("\nModel saved successfully!")
