@@ -1,0 +1,5 @@
+outs:
+- md5: 2cb44b6a7ac7a7398182aacc3ea1dd5c
+  size: 1360
+  hash: md5
+  path: lifepass_documents.csv
